@@ -1,0 +1,97 @@
+<html>
+<head>
+  <title>SchemeBot Chat</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <style>
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  background-image: url("https://i.pinimg.com/originals/5b/35/78/5b3578a465b20ade85f67c71f05697f6.jpg");
+  margin: 0;
+  background-size: cover;
+  color: white;
+  background-color: rgb(255, 199, 96);
+  font-family: Arial, sans-serif;
+}
+
+    
+    element.style {
+    border: none;
+   
+}
+
+iframe {
+ 
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    height: 750px;
+    width: 400px;
+}
+
+    @media only screen and (max-width: 600px) {
+      .center-div {
+        height: 40vh; 
+        width: 80vw;
+        background-color: greenyellow;
+        border-radius: 15px;
+        padding: 5px;
+        box-sizing: border-box;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+ 
+<body>
+  <div>
+    
+    <div class="absolute inset-4 ">
+      <div
+        class="center-div relative h-full w-full overflow-clip rounded-md border border-zinc-200 bg-white p-2 px-0 py-0"
+      >
+        <iframe
+          style="border: none;"
+          srcdoc="<body><script src='https://cdn.botpress.cloud/webchat/v1/inject.js'></script>
+          <script>
+            window.botpressWebChat.init({
+                'composerPlaceholder': 'Chat with Schemebot',
+                'botConversationDescription': 'Indian Government Schemes Guider',
+                'botName': 'SchemeBot',
+                'botId': '2f88e088-a81c-4e42-9f20-51b58cd28494',
+                'hostUrl': 'https://cdn.botpress.cloud/webchat/v1',
+                'messagingUrl': 'https://messaging.botpress.cloud',
+                'clientId': '2f88e088-a81c-4e42-9f20-51b58cd28494',
+                'avatarUrl': 'https://i1.sndcdn.com/artworks-000194862101-o3g86x-t500x500.jpg',
+
+                'enableConversationDeletion': true,
+                'showPoweredBy': true,
+                'className': 'webchatIframe',
+                'containerWidth': '100%25',
+                'layoutWidth': '100%25',
+                'hideWidget': true,
+                'showCloseButton': false,
+                'disableAnimations': true,
+                'closeOnEscape': false,
+                'showConversationsButton': false,
+                'enableTranscriptDownload': false,
+                'stylesheet':'https://webchat-styler-css.botpress.app/prod/code/3fcd3e4e-d5bc-4bf5-8699-14b621b3ada2/v31782/style.css'
+            });
+          window.botpressWebChat.onEvent(function () { window.botpressWebChat.sendEvent({ type: 'show' }) }, ['LIFECYCLE.LOADED']);
+          </script></body>"
+          width="100%"
+          height="100%"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
