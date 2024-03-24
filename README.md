@@ -1,3 +1,7 @@
+SchemeBot-  An 
+AI based Chatbot that can provide information about various government Schemes to the citizens and help them identify their eligibility criteria for different programs.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
