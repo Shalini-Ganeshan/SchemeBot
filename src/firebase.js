@@ -3,12 +3,12 @@ import { initializeApp } from "firebase/app";
 import {getAuth} from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDvpBsX19l43LMCxTcG_YZx5GSDNmcp5JM",
-  authDomain: "schemebot-978c3.firebaseapp.com",
-  projectId: "schemebot-978c3",
-  storageBucket: "schemebot-978c3.appspot.com",
-  messagingSenderId: "1082331250282",
-  appId: "1:1082331250282:web:6731088669da7fd9211413"
+  apiKey: "AIzaSyBwZBFc6Oxn7FjbtOaXIyK1GlqUtZlEuOE",
+  authDomain: "schemebot-1.firebaseapp.com",
+  projectId: "schemebot-1",
+  storageBucket: "schemebot-1.appspot.com",
+  messagingSenderId: "952847575500",
+  appId: "1:952847575500:web:f9eb833af9c5105807d569"
 };
 
 
